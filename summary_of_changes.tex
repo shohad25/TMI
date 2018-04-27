@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage{epsf}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage[usenames, dvipsnames]{color}
+
+\topmargin      -0.3truein
+\oddsidemargin  -0.2truein
+\evensidemargin -0.2truein
+\textheight     9.5truein
+\textwidth      6.5truein
+\headheight     0.0truein
+\headsep        0.0truein
+\parskip 10pt plus 1pt
+\parindent=0pt
+
+\begin{document}
+\thispagestyle{empty}
+
+\title{Summary of changes}
+\maketitle
+Manuscript name: Accelerated Magnetic Resonance Imaging by Generative Adversarial Neural Networks
+\vspace{0.2cm}
+
+
+\vspace{0.2cm}
+
+In this manuscript, we introduce a practical, software-only framework, based on deep learning, for accelerating MRI acquisition, while maintaining anatomically meaningful imaging. The key idea is performing MRI sub-sampling, while using a generative adversarial networks to directly estimate the missing k-space samples.
+Comprehensive experiments using brain MRI scans, from a large publicly available dataset, demonstrate the quality of the proposed MRI reconstruction, obtained for up to six-fold acceleration factor. 
+Our method is shown to outperform all the other tested methods, including the widely-used Compressed Sensing.
+
+
+A preliminary version of this work was presented at the Deep Learning in Medical Image Analysis workshop (DLMIA 2017), Quebec, Canada
+(in conjunction with the MICCAI conference). The submitted manuscript is substantially
+longer and more comprehensive. We further extended the scope of our framework using a more stabilized training regime and exploiting the sparsity in two dimensions. The method is now tested on a large, diverse publicly available dataset of raw images without pre-processing, and with much higher sampling factors. Furthermore, extensive experiments were conducted to demonstrate the clinical applicability of the proposed framework and the advantage of performing the reconstruction directly from the k-space.
+
+
+\vspace{0.2cm}
+
+Ohad Shitrit\\
+Tammy Riklin Raviv
+
+\end{document}
